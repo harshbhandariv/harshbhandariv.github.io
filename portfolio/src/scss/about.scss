@@ -1,0 +1,40 @@
+@import 'mediabreakpoint';
+.About {
+  background-color: #eee;
+}
+h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: 200;
+}
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0em auto;
+  padding: 1em;
+}
+
+.about-content .profileAboutDiv {
+  text-align: justify;
+  padding: 0em 1em;
+  line-height: 2em;
+  width: 40%;
+}
+
+.profileDiv img {
+  padding: 0em 1em;
+  width: 250px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: $tablet) {
+  .about-content .profileAboutDiv {
+    width: 100%;
+  }
+
+  .profileDiv img {
+    display: none;
+  }
+}

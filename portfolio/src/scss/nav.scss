@@ -1,0 +1,80 @@
+@import 'mediabreakpoint';
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a.name {
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+nav .nav-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 0em 1em;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.5s;
+  color: rgba(0, 0, 0, 0.6);
+  &:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 2.5vh;
+  display: none;
+}
+
+.burger div {
+  width: 20px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: $mobile) {
+  nav {
+    align-items: flex-start;
+  }
+  .burger {
+    display: flex;
+  }
+  nav .nav-content {
+    display: flex;
+    flex-direction: column;
+    width: unset;
+  }
+  ul {
+    display: none;
+  }
+  ul.show {
+    display: flex;
+    flex-direction: column;
+    li {
+      padding: 1em 0em;
+    }
+  }
+}

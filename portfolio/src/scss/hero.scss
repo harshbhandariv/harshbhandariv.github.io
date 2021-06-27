@@ -1,0 +1,68 @@
+@import 'animation';
+@import 'mediabreakpoint';
+.Hero {
+  background: linear-gradient(
+      -45deg,
+      hsl(360, 50%, 60%),
+      hsl(240, 50%, 60%),
+      hsl(180, 50%, 60%),
+      hsl(300, 50%, 60%)
+    )
+    0% 0% / 1200% 1200%;
+  min-height: 100vh;
+  animation: change linear 60s infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-weight: 200;
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+    animation: float 6s ease-out infinite;
+  }
+  .tags {
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 1em 0em;
+    text-align: center;
+  }
+}
+a.cta {
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  padding: 0.25em 0.5em;
+  border-radius: 0.2em;
+  transition: 0.5s;
+  font-weight: 200;
+  border: 1px solid #fff;
+  &:hover {
+    color: #000;
+    background: #fff;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .Hero {
+    h1 {
+      font-size: 4em;
+    }
+    .tags {
+      font-size: 1em;
+    }
+  }
+}
+@media screen and (max-width: $mobile) {
+  .Hero {
+    h1 {
+      font-size: 3em;
+    }
+    .tags {
+      font-size: 1em;
+    }
+  }
+}

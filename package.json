@@ -1,0 +1,24 @@
+{
+  "name": "harshbhandariv.github.io",
+  "version": "1.0.0",
+  "description": "Built using React",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd portfolio && npm run build && cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshbhandariv/harshbhandariv.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshbhandariv/harshbhandariv.github.io/issues"
+  },
+  "homepage": "https://github.com/harshbhandariv/harshbhandariv.github.io",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

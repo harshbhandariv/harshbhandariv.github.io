@@ -1,0 +1,37 @@
+.Project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.project-card-container {
+  display: grid;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.2em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 400px;
+}
+
+.project-name {
+  font-weight: 300;
+}
+
+.project-description {
+  margin: 1em 0em;
+}
+
+.links {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

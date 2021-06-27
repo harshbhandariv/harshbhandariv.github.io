@@ -1,0 +1,19 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.social {
+  margin: 1em 0em;
+}
+
+.social a {
+  color: black;
+}
+
+a.mail {
+  text-decoration: none;
+}
