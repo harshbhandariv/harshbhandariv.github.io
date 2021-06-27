@@ -12,7 +12,7 @@ export default function Contact() {
           <a href={contact.socials.GitHub}>
             <GitHub />
           </a>
-          <a href={contact.socials.Twitter} style={{ padding: '0em 1em' }}>
+          <a href={contact.socials.Twitter} style={{ margin: '0em 1em' }}>
             <Twitter />
           </a>
           <a href={contact.socials.LinkedIn}>

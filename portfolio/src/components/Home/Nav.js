@@ -18,10 +18,10 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
           </li>
         </ul>
       </div>
