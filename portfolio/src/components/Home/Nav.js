@@ -9,7 +9,7 @@ export default function Nav() {
     <nav>
       <div className="nav-content">
         <a href="#home" className="name">
-          {`<${about.firstName} />`}
+          {about.firstName}
         </a>
         <ul ref={navListRef}>
           <li>
