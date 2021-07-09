@@ -1,6 +1,12 @@
 const project = {
   gitHubUsername: 'harshbhandariv',
-  repos: ['formmaker', 'fourierchaos', 'Blog-API', 'characteristicEquation'],
+  repos: [
+    'formmaker',
+    'fourierchaos',
+    'Blog-API',
+    'characteristicEquation',
+    'chromaticpolynomial',
+  ],
 };
 
 const about = {
