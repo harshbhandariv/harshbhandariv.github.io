@@ -4,21 +4,24 @@
   "description": "Built using React",
   "main": "index.js",
   "scripts": {
-    "build": "cd portfolio && npm run build && cd ..",
+    "predeploy": "cd portfolio && npm run build && echo harshbhandari.me > ./build/CNAME && cd ..",
+    "deploy": "gh-pages -d ./portfolio/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harshbhandariv/harshbhandariv.github.io.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "personal website"
+  ],
+  "author": "Harsh V Bhandari",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/harshbhandariv/harshbhandariv.github.io/issues"
   },
-  "homepage": "https://github.com/harshbhandariv/harshbhandariv.github.io",
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "homepage": "https://harshbhandariv.github.io/"
 }

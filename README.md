@@ -2,4 +2,4 @@
 
 ## Portfolio
 
-Built using React
+Built using React and SaSS

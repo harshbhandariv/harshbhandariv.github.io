@@ -6,6 +6,7 @@ const project = {
     'Blog-API',
     'characteristicEquation',
     'chromaticpolynomial',
+    'harshbhandariv.github.io',
   ],
 };
 

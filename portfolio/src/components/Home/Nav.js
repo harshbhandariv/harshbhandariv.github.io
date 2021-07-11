@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../../scss/nav.scss';
-import Pdf from '../../assets/HarshVBhandari_Resume_JUNE2020.pdf';
+import Pdf from '../../assets/Resume_HARSHVBHANDARI.pdf';
 import { about } from '../../assets/config.js';
 
 export default function Nav() {
