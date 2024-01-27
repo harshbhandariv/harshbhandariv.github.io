@@ -10,7 +10,7 @@ export default function About() {
         <div className="profileDiv">
           <img src={photo} alt={`${about.firstName}`} />
         </div>
-        <div className="profileAboutDiv">{about.aboutme}</div>
+        <div className="profileAboutDiv" dangerouslySetInnerHTML={about.aboutme} />
       </div>
     </div>
   );

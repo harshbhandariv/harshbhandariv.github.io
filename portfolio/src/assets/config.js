@@ -14,7 +14,7 @@ const about = {
   firstName: 'Harsh',
   lastName: 'Bhandari',
   aboutme:
-    'Hi, I am Harsh V Bhandari pursuing my Bachelors in Electronics and Communication Engineering from Thiagarajar College of Engineering, Madurai. I am passionate about Web Development and love to use technologies to create fun stuffs on the Internet',
+    'I am working as a Solution Consultant at <a href="https://sahaj.ai">Sahaj Software</a>. I am passionate about creating practical solutions. I enjoy turning complex ideas into user-friendly code.',
   tags: ['Engineer', 'Web Developer', 'Tech Enthusiast'],
 };
 
