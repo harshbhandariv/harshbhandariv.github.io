@@ -4,7 +4,7 @@
   "description": "Built using React",
   "main": "index.js",
   "scripts": {
-    "predeploy": "cd portfolio && npm ci && npm run build && echo harshbhandari.me > ./build/CNAME && cd ..",
+    "predeploy": "cd portfolio && npm ci && npm run build && echo harshbhandari.com > ./build/CNAME && cd ..",
     "deploy": "gh-pages -d ./portfolio/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
