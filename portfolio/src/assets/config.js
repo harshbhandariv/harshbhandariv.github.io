@@ -22,7 +22,7 @@ const contact = {
   email: 'harsh.bhandari.v@gmail.com',
   socials: {
     GitHub: 'https://github.com/harshbhandariv',
-    LinkedIn: 'https://www.linkedin.com/in/harshvbhandari/',
+    LinkedIn: 'https://www.linkedin.com/in/harshbhandariv/',
     Twitter: 'https://twitter.com/harshbhandariv',
   },
   fewWords: 'Feel free to say Hi',
